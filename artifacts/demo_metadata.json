@@ -7,15 +7,27 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "s",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getter",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "int256",
 						"name": "",
-						"type": "string"
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -47,11 +59,11 @@
 	},
 	"sources": {
 		"demo.sol": {
-			"keccak256": "0x724cea9cecd84fe2f4f793fe6aa9de184d7fca01487280f264a306fd98446001",
+			"keccak256": "0x10af29f732d8f599e8ee887fe0d2f88f2fb1f45574669e521bb45cb5b2f902d7",
 			"license": "UNIDENTIFIED",
 			"urls": [
-				"bzz-raw://816e8b520aab3f6af0d443b8eb7c6e56a86947c04fdd9d8c9a6ab8099605fe50",
-				"dweb:/ipfs/QmXj7RuLe9KLKYWwogkQu3G5EuaBsQVqqziNZSpCDxjadk"
+				"bzz-raw://ffe0c3656464488a9ad703ee49de241bcf93d3d638ba48bd3813f52e1a93569f",
+				"dweb:/ipfs/QmfSKRuyWZn7sEWmAcW8XFpRc69v8wbgeYqJX4aeNmsovX"
 			]
 		}
 	},
