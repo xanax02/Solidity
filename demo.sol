@@ -16,4 +16,8 @@ contract demo {
     function increment() public {
         number = number + 1;
     }
+
+    function decrement() public {
+        number = number - 1;
+    }
 }
