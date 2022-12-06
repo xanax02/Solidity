@@ -20,4 +20,16 @@ contract demo {
     function decrement() public {
         number = number - 1;
     }
+
+    //Strings
+    string public str = "Yes solidity is fun";
+
+    function returnStateVariable() public view returns (string memory) {
+        return str;
+    }
+
+    function returnLocalVariable() public pure returns (string memory) {
+        string memory str2 = "Yes solidity is exciting";
+        return str2;
+    }
 }
